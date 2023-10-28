@@ -226,3 +226,8 @@ function main() {
     information.classList.add("no");
     list.classList.remove("no");
 };
+
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function() {
+    loader.style.display = "none";
+});
